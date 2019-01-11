@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#87CEFA</color>
+    <color name="colorPrimaryDark">#00BFFF</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="skyblue">#00CCFF</color>
+    <color name="purple">#7A3AFE</color>
+    <color name="solidColor">#AAFFFFFF</color>
+    <color name="grey">#D3D3D3</color>
+    <color name="border">#50FFFFFF</color>
+    <color name="gradEnd">#67EFC8</color>
+    <color name="gradStart">#63C9FF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="data">#65DCE5</color>
+    <color name="poin">#49BEFF</color>
+    <color name="alamat">#2F7092</color>
+    <color name="heading">#2797CF</color>
+
+</resources>
