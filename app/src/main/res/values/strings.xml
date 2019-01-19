@@ -1,4 +1,9 @@
 <resources>
-    <string name="app_name">Nebeng Ky</string>
+    <string name="app_name">NebengKuy</string>
     <string name="title_activity_maps">Map</string>
+
+    <string-array name="jenis">
+        <item>Motor</item>
+        <item>Mobil</item>
+    </string-array>
 </resources>

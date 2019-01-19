@@ -12,14 +12,6 @@
         android:layout_gravity="left"
         android:gravity="left|center"
         android:orientation="horizontal">
-        a
-        <ImageView
-            android:layout_marginLeft="5dp"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:tint="#FFFFFF"
-            app:srcCompat="@drawable/ic_arrow_back_black"
-            />
 
         <TextView
             android:textStyle="bold"
@@ -27,7 +19,7 @@
             android:textColor="#FFFFFF"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Masuk"
+            android:text="NEBENGKUY"
             android:fontFamily="@font/roboto"
             android:textSize="20sp"/>
     </LinearLayout>
@@ -37,17 +29,18 @@
         android:id="@+id/relativeLayout"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="160dp"
-        android:layout_marginRight="30dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="3dp"
         android:background="#fff"
         android:elevation="4dp"
         android:orientation="vertical"
-        android:padding="20dp">
+        android:padding="3dp">
 
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
             android:orientation="vertical"
             android:paddingTop="30dp">
 
@@ -81,20 +74,44 @@
                 android:id="@+id/login"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="22dp"
+                android:layout_margin="10dp"
                 android:background="#00ccff"
                 android:text="Masuk"
                 android:textAllCaps="false"
                 android:textColor="#fff"
                 android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Belum punya akun? Daftar " />
+
+                <TextView
+                    android:id="@+id/klik_daftar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DISINI."
+                    android:textColor="@color/skyblue"/>
+
+            </LinearLayout>
+
         </LinearLayout>
+
+
+
     </RelativeLayout>
 
     <ImageView
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="105dp"
+        android:layout_marginTop="140dp"
         android:background="@drawable/background_profile"
         android:elevation="4dp"
         android:src="@drawable/logo"
